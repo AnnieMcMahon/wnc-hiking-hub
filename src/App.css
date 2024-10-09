@@ -1,0 +1,174 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+button {
+  background-color: #5e9852;
+  color: white;
+  margin: 1rem;
+  font-size: 1rem;
+  padding: 0.7rem 1.8rem;
+  border-radius: 5%;
+}
+
+button:hover {
+  background-color: #14af5d;
+  cursor: pointer; 
+}
+
+/* Navigation bar */
+#navbar {
+  background-color: #f6f3f2;
+  height: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#navbar .title {
+  display: flexbox;
+  align-items: center;
+  color: #5e9852;
+  height: 4rem;
+  float: left;
+  text-align: center;
+  padding: 0 1rem;
+}
+
+#navbar .title:hover {
+  background-color: #bce4b4;
+  cursor: pointer; 
+}
+
+#navbar .links {
+  margin: auto;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#navbar li {
+  float: left;
+  display: block;
+  padding: 1rem;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+#navbar li:hover {
+  background-color: #bce4b4;
+  cursor: pointer; 
+}
+
+/* Instructions */
+
+#instructions {
+  background: #82d576;
+  width: 40%;
+  margin: 1rem auto;
+  padding: 1rem 2rem;
+}
+
+#instructions ul {
+  text-align: left;
+  font-size: 1.2rem;
+}
+
+/* Bio */
+#bio {
+  display: flex;
+  flex-direction: row;
+}
+
+#bio .bio-section {
+  width: 60%;
+}
+
+#bio .bio-header-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem;
+}
+
+#bio .avatar {
+  border: 1px solid gray;
+  border-radius: 50%;
+  width: 4rem;
+  height: 4rem;
+}
+
+#bio .edit-bio {
+  background-color: #5e9852;
+  color: white;
+  margin: 1rem;
+  font-size: 1rem;
+  padding: 0.7rem 1.8rem;
+  border-radius: 5%;
+}
+
+#bio .bio-text-section {
+  padding: 0 2rem;
+  text-align: left;
+}
+
+#bio .bio-text {
+  background-color: #d9d9d9;
+  padding: 2rem;
+}
+
+#bio .hike-section {
+  width: 40%;
+  height: 30rem;
+  background: #82d576;
+  margin: 1rem;
+  padding: 0 1rem;
+  border: 1px solid gray;
+  border-radius: 2%;
+  margin-left: 1rem;
+  overflow: scroll;
+}
+
+#bio .hike-section h3, p {
+  text-align: left;
+}
+
+#hike {
+  text-align: left;
+  background-color:#d9d9d9;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+}
+
+#hike p, h4, h5 {
+  margin: 0;
+  padding: 0;
+}
+
+#hike h4 {
+  font-size: 1rem;
+}
+
+#hike h5 {
+  font-style: italic;
+  font-size: 0.9rem;
+}
+
+#hike .hike-button {
+  margin: 0.1rem;
+  font-size: 0.8rem;
+  padding: 0.5rem;
+  width: 5rem;
+  float:right;
+}
+
+#hike .history {
+  visibility:collapse;
+}
