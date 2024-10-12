@@ -1,6 +1,6 @@
 import avatar from "/avatar1.png";
 import Hike from "./Hike";
-import hikes from "./assets/hikes";
+import hikes from "../assets/hikes";
 
 function Bio() {
   return (

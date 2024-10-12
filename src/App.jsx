@@ -1,14 +1,16 @@
 import "./App.css";
-import Navbar from "./Navbar";
-// import Instructions from "./Instructions";
-import Bio from "./Bio";
+import Navbar from "./components/Navbar";
+import Instructions from "./components/Instructions";
+import Bio from "./components/Bio";
+import JoinHike from "./components/JoinHike";
 
 function App() {
   return (
     <>
       <Navbar />
       {/* <Instructions /> */}
-      <Bio />
+      {/* <Bio /> */}
+      <JoinHike />
     </>
   );
 }

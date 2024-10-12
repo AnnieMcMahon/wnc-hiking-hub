@@ -22,6 +22,22 @@ button:hover {
   cursor: pointer; 
 }
 
+.hike-section {
+  width: 40%;
+  height: 30rem;
+  background: #82d576;
+  margin: 1rem;
+  padding: 0 1rem;
+  border: 1px solid gray;
+  border-radius: 2%;
+  margin-left: 1rem;
+  overflow: scroll;
+}
+
+.hike-section h3, p {
+  text-align: left;
+}
+
 /* Navigation bar */
 #navbar {
   background-color: #f6f3f2;
@@ -105,15 +121,6 @@ button:hover {
   height: 4rem;
 }
 
-#bio .edit-bio {
-  background-color: #5e9852;
-  color: white;
-  margin: 1rem;
-  font-size: 1rem;
-  padding: 0.7rem 1.8rem;
-  border-radius: 5%;
-}
-
 #bio .bio-text-section {
   padding: 0 2rem;
   text-align: left;
@@ -126,18 +133,6 @@ button:hover {
 
 #bio .hike-section {
   width: 40%;
-  height: 30rem;
-  background: #82d576;
-  margin: 1rem;
-  padding: 0 1rem;
-  border: 1px solid gray;
-  border-radius: 2%;
-  margin-left: 1rem;
-  overflow: scroll;
-}
-
-#bio .hike-section h3, p {
-  text-align: left;
 }
 
 #hike {
@@ -171,4 +166,10 @@ button:hover {
 
 #hike .history {
   visibility:collapse;
+}
+
+#join-hike .hike-section {
+  width: 75%;
+  margin: auto;
+  padding-top: 1rem;
 }

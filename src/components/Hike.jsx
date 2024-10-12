@@ -4,7 +4,9 @@ function Hike({hikeType, hikeInfo}) {
     buttonMessage = "Opt Out";
   } else if (hikeType === "created") {
     buttonMessage = "Edit Hike";
-  };
+  } else if (hikeType === "available") {
+    buttonMessage = "Join Hike";
+  }
 
   return (
     <div id="hike">
