@@ -40,12 +40,12 @@ function Bio() {
       <div className="hike-section">
         <h2>My Hikes</h2>
         <h3>Coming Up</h3>
-        <div className="hikes">
+        <div>
           <Hike hikeType="created" hikeInfo={hikes[0]}/>
           <Hike hikeType="joined" hikeInfo={hikes[1]}/>
         </div>
         <h3>History</h3>
-        <div className="hikes">
+        <div>
           <Hike hikeType="history" hikeInfo={hikes[2]}/>
           <Hike hikeType="history" hikeInfo={hikes[3]}/>
           <Hike hikeType="history" hikeInfo={hikes[4]}/>

@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import Instructions from "./components/Instructions";
 import Bio from "./components/Bio";
 import JoinHike from "./components/JoinHike";
+import PostHike from "./components/PostHike";
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
       <Navbar />
       {/* <Instructions /> */}
       {/* <Bio /> */}
-      <JoinHike />
+      {/* <JoinHike /> */}
+      <PostHike />
     </>
   );
 }

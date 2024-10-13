@@ -9,7 +9,7 @@ function Hike({hikeType, hikeInfo}) {
   }
 
   return (
-    <div id="hike">
+    <div className="hike">
       <h4>{hikeInfo.title}, with {hikeInfo.creator}</h4>
       {buttonMessage.length > 0 && <button className="hike-button">{buttonMessage}</button>}
       
